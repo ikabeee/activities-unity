@@ -371,6 +371,7 @@ GameObject:
   - component: {fileID: 727100934}
   - component: {fileID: 727100933}
   - component: {fileID: 727100932}
+  - component: {fileID: 727100935}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Untagged
@@ -391,6 +392,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movimiento
   velocidad: 5
+--- !u!114 &727100935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727100931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d48410983e5f1445f8f7a8e09a78dc6c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::CambioColor
 --- !u!212 &727100933
 SpriteRenderer:
   serializedVersion: 3
